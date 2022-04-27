@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');e>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3.1rem;
+}
+
+h1{
+    font-size: 75px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.25rem;
+    
+}
+
+#currentNumber{
+    margin: 0 1.25rem;
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+button{
+    padding: 20px;
+    border-radius: 30px;
+    font-size:1.8rem;
+    background-color:rgb(249, 252, 246);
+    cursor:pointer;
+    height: 77px;
+    width: 60px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color:rgb(192, 150, 43)
+}
